@@ -1,0 +1,52 @@
+# The protocol driver to use. Supported drivers are: "Redis", "RabbitMQ".
+protocol.driver: Redis
+# The version of the protocol. Refer to documentation for the latest release, or follow scheme: "Major.Minor.Patch".
+protocol.version: 1.0.0
+
+# The database driver to use. Supported drivers are: "Redis", "MongoDB".
+database.driver: MongoDB
+# The cache driver to use. Supported drivers are: "None", "Redis", "Memcached".
+cache.driver: Redis
+
+# The public key of the service, used to encrypt packets.
+public.key: "public.pem"
+# The private key of the service, used to decrypt packets.
+private.key: "private.pem"
+
+# The host of the Redis server, usually an IP address such as "127.0.0.1".
+redis.host: "127.0.0.1"
+# The port of the Redis server, usually "6379"
+redis.port: 6379
+# The username of the Redis server, may not be supported on old Redis servers
+redis.username: ""
+# The password of the Redis server, may not be supported on old Redis servers
+redis.password: "nullptr-rs"
+# The database of the Redis server, usually "0"
+redis.database: 0
+
+# The host of the RabbitMQ server, usually an IP address such as "127.0.0.1"
+rabbitmq.host: "127.0.0.1"
+# The port of the RabbitMQ server, usually "5672"
+rabbitmq.port: 5672
+# The username of the RabbitMQ server, usually "guest" by default
+rabbitmq.username: "nullptr-rs"
+# The password of the RabbitMQ server, usually "guest" by default
+rabbitmq.password: "nullptr-rs"
+
+# The host of the MongoDB server, usually an IP address such as "127.0.0.1"
+mongodb.host: "127.0.0.1"
+# The port of the MongoDB server, usually "27017"
+mongodb.port: 27017
+# The username of the MongoDB server
+mongodb.username: "nullptr-rs"
+# The password of the MongoDB server
+mongodb.password: "nullptr-rs"
+# The options of the MongoDB server
+mongodb.options: ""
+# The database of the MongoDB server
+mongodb.database: "cerberus"
+
+# The host of the Memcached server, usually an IP address such as "127.0.0.1"
+memcached.host: "127.0.0.1"
+# The port of the Memcached server, usually "11211"
+memcached.port: 11211

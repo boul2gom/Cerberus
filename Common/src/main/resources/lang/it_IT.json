@@ -1,0 +1,21 @@
+{
+  "certificates.fetch.error.keys-not-found": "Could not find public or private keys, please check your configuration.",
+  "encoder.initialization.error": "Unable to initialize packet encoder.",
+  "service.start.message": "Starting service %s...",
+  "service.connecting.message": "Connecting asynchronously to %s service...",
+  "event-bus.subscribing.error.lambda-not-found": "Listener %s is not a lambda expression, trying to find call method...",
+  "event-bus.subscribing.error": "An error occurred while subscribing listener %s to event %s.",
+  "event-bus.dispatching.error": "An error occurred while dispatching event %s.",
+  "packet-encoder.packet-id.error.id-not-found": "Unable to parse packet id for packet %s.",
+  "packet-encoder.packet-id.error.class-not-found": "Unable to find packet class for packet id %s.",
+  "packet-encoder.protocol-version.error.unknown": "Unknown protocol version %s.",
+  "packet-encoder.protocol-version.error.unsupported": "Unsupported protocol version %s.",
+  "packet-encoder.encrypt.error": "An error occurred while encrypting packet %s.",
+  "packet-encoder.decrypt.error": "An error occurred while decrypting packet %s.",
+  "driver-loader.parse.unknown-driver": "Unknown %s driver %s.",
+  "protocol.receiver.error.invalid-packet": "Received invalid packet from channel %s.",
+  "rabbitmq.protocol.subscribe": "Subscribing to RabbitMQ exchange %s...",
+  "redis.protocol.subscribe": "Subscribing to Redis channel %s...",
+  "redis.protocol.receiver.warning.no-receivers": "No clients received packet %s from channel %s.",
+  "redis.protocol.receiver.warning.unknown-channel": "Received packet from unknown channel %s."
+}

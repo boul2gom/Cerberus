@@ -1,0 +1,21 @@
+{
+  "certificates.fetch.error.keys-not-found": "Impossible de trouver les clés publiques ou privées, veuillez vérifier votre configuration.",
+  "encoder.initialization.error": "Impossible d'initialiser l'encodeur de paquets.",
+  "service.start.message": "Démarrage du service %s...",
+  "service.connecting.message": "Connexion asynchrone au service %s...",
+  "event-bus.subscribing.error.lambda-not-found": "Le listener %s n'est pas une expression lambda, recherche de la méthode par reflection...",
+  "event-bus.subscribing.error": "Une erreur s'est produite lors de l'enregistrement du listener %s pour l'événement %s.",
+  "event-bus.dispatching.error": "Une erreur s'est produite lors de la diffusion de l'événement %s.",
+  "packet-encoder.packet-id.error.id-not-found": "Impossible d'analyser l'identifiant du paquet pour le paquet %s.",
+  "packet-encoder.packet-id.error.class-not-found": "Impossible de trouver la classe de paquet pour l'identifiant de paquet %s.",
+  "packet-encoder.protocol-version.error.unknown": "Version de protocole %s inconnue.",
+  "packet-encoder.protocol-version.error.unsupported": "Version de protocole %s non prise en charge.",
+  "packet-encoder.encrypt.error": "Une erreur s'est produite lors du chiffrement du paquet %s.",
+  "packet-encoder.decrypt.error": "Une erreur s'est produite lors du déchiffrement du paquet %s.",
+  "driver-loader.parse.unknown-driver": "Pilote %s inconnu %s.",
+  "protocol.receiver.error.invalid-packet": "Paquet non valide reçu sur le canal %s.",
+  "rabbitmq.protocol.subscribe": "Enregistrement auprès de l'exchange RabbitMQ %s...",
+  "redis.protocol.subscribe": "Enregistrement auprès du canal Redis %s...",
+  "redis.protocol.receiver.warning.no-receivers": "Aucun client n'a reçu le paquet %s sur le canal %s.",
+  "redis.protocol.receiver.warning.unknown-channel": "Paquet reçu sur canal inconnu %s."
+}
